@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #0a74da;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+  border: 3px solid white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.navbar {
+  background-color: #333;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 0;
+  display: block;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  margin: 40px 0;
+}
+
+h2 {
+  color: #0a74da;
+  border-bottom: 2px solid #0a74da;
+  padding-bottom: 5px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.skills-grid div {
+  background-color: #e3f2fd;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.experience-item {
+  margin-top: 20px;
+}
+
+.duration {
+  font-style: italic;
+  color: #777;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0a74da;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #095bb5;
+}
+
+.contact-info {
+  display: none;
+  margin-top: 15px;
+  line-height: 1.5;
+}
+
+.contact-info a {
+  color: #0a74da;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
